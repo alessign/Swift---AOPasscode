@@ -6,6 +6,16 @@ Do your friends/people around you know your passcode to unlock your phone/app? I
 With our passcode your app will be way safer and can not be hacked as you have to set different combination of numbers and colors. These are generated and displayed randomly each time it is launched, so there is no way even if somebody
 is watching you, that he/she would guess the passcode. They simple can't be sure if you was tapping on color or number and next time the order comes differently and you'll be tapping different button again!
 
+Set new passcode: ( red + 4 + green + 6)
+
+![](http://www.viralideasltd.com/github/SetPasscode.gif)
+
+Test the passcode
+
+![](http://www.viralideasltd.com/github/TestPasscode.gif)
+
+
+
 ## Requirements 
 iOS 9.3 or higher
 
