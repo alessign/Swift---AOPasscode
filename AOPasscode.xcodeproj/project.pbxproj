@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A01532EA1D39043F005FBF69 /* SetAOPasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01532E91D39043F005FBF69 /* SetAOPasscodeView.swift */; };
+		A01532EC1D39060F005FBF69 /* SetAOPasscodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A01532EB1D39060F005FBF69 /* SetAOPasscodeView.xib */; };
 		A0AB7B771D36A0C700E19B4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AB7B761D36A0C700E19B4F /* AppDelegate.swift */; };
 		A0AB7B791D36A0C700E19B4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AB7B781D36A0C700E19B4F /* ViewController.swift */; };
 		A0AB7B7C1D36A0C700E19B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0AB7B7A1D36A0C700E19B4F /* Main.storyboard */; };
 		A0AB7B7E1D36A0C700E19B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0AB7B7D1D36A0C700E19B4F /* Assets.xcassets */; };
 		A0AB7B811D36A0C700E19B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0AB7B7F1D36A0C700E19B4F /* LaunchScreen.storyboard */; };
+		A0AB7B891D36A0EF00E19B4F /* AOPasscode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AB7B881D36A0EF00E19B4F /* AOPasscode.swift */; };
+		A0AB7B8B1D36A10F00E19B4F /* AOPasscodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0AB7B8A1D36A10F00E19B4F /* AOPasscodeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A01532E91D39043F005FBF69 /* SetAOPasscodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetAOPasscodeView.swift; sourceTree = "<group>"; };
+		A01532EB1D39060F005FBF69 /* SetAOPasscodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetAOPasscodeView.xib; sourceTree = "<group>"; };
 		A0AB7B731D36A0C600E19B4F /* AOPasscode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOPasscode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0AB7B761D36A0C700E19B4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0AB7B781D36A0C700E19B4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		A0AB7B7D1D36A0C700E19B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0AB7B801D36A0C700E19B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0AB7B821D36A0C700E19B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0AB7B881D36A0EF00E19B4F /* AOPasscode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AOPasscode.swift; sourceTree = "<group>"; };
+		A0AB7B8A1D36A10F00E19B4F /* AOPasscodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AOPasscodeView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 			children = (
 				A0AB7B761D36A0C700E19B4F /* AppDelegate.swift */,
 				A0AB7B781D36A0C700E19B4F /* ViewController.swift */,
+				A0AB7B881D36A0EF00E19B4F /* AOPasscode.swift */,
+				A01532E91D39043F005FBF69 /* SetAOPasscodeView.swift */,
 				A0AB7B7A1D36A0C700E19B4F /* Main.storyboard */,
+				A0AB7B8A1D36A10F00E19B4F /* AOPasscodeView.xib */,
+				A01532EB1D39060F005FBF69 /* SetAOPasscodeView.xib */,
 				A0AB7B7D1D36A0C700E19B4F /* Assets.xcassets */,
 				A0AB7B7F1D36A0C700E19B4F /* LaunchScreen.storyboard */,
 				A0AB7B821D36A0C700E19B4F /* Info.plist */,
@@ -122,9 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0AB7B8B1D36A10F00E19B4F /* AOPasscodeView.xib in Resources */,
 				A0AB7B811D36A0C700E19B4F /* LaunchScreen.storyboard in Resources */,
 				A0AB7B7E1D36A0C700E19B4F /* Assets.xcassets in Resources */,
 				A0AB7B7C1D36A0C700E19B4F /* Main.storyboard in Resources */,
+				A01532EC1D39060F005FBF69 /* SetAOPasscodeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0AB7B791D36A0C700E19B4F /* ViewController.swift in Sources */,
+				A01532EA1D39043F005FBF69 /* SetAOPasscodeView.swift in Sources */,
+				A0AB7B891D36A0EF00E19B4F /* AOPasscode.swift in Sources */,
 				A0AB7B771D36A0C700E19B4F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +302,7 @@
 				A0AB7B871D36A0C700E19B4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
